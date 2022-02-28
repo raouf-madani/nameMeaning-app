@@ -1,0 +1,10 @@
+.footerContainer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-bottom: 1em;
+    color: #ccc;
+    font-size: 18px;
+}

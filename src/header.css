@@ -1,0 +1,16 @@
+.headerContainer{
+   background-color: hsl(219, 92%, 52%);
+   text-align: left;
+   margin: auto -16px;
+   padding: 5px 0 5px 30px;
+   box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+ 
+   width: 100%;
+}
+
+.headerContainer h1 {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #fff;
+}
+
