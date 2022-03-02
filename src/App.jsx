@@ -11,9 +11,10 @@ function App() {
  const addNames = tapedNames=>{
    return (
      setNames(prevValues => {
-      return [...prevValues,tapedNames]
+      return [...prevValues,tapedNames];
      })
-   )
+     
+   );
  };
 
  const deleteName = id=>{

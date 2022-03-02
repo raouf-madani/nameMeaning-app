@@ -24,6 +24,7 @@ const AddNameMeaning = props => {
             } */
 
          setNameInfo(prevValue=>({...prevValue,[name]:value})); //...prevValue (spread Operator)
+   
     };
 
     
@@ -37,7 +38,12 @@ const AddNameMeaning = props => {
                </textarea>
                <button className="tnBtn" onClick={()=>{
                    
-                   props.onAdd(nameInfo)
+                   props.onAdd(nameInfo);
+                   setNameInfo({
+                       name:"",
+                       description:""
+                   });
+                  
                     }
                    } >Add</button>
           
